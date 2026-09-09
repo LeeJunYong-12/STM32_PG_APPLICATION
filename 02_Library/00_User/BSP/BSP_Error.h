@@ -1,0 +1,18 @@
+#ifndef	_BSP_ERROR_H
+#define	_BSP_ERROR_H
+
+#include	"BSP.h"
+
+typedef	enum{
+	BSP_ERROR_POS_HARDFAULT = 0,
+	BSP_ERROR_POS_MEMMANAGE,
+	BSP_ERROR_POS_BUSFAULT,
+	BSP_ERROR_POS_USAGEFAULT,
+
+	BSP_ERROR_POS_MCU_CLK,
+	BSP_ERROR_POS_ETHERNET,
+}bspError_t;
+
+void BSP_ERROR_Loop(u32 errorPos);
+
+#endif	//	_BSP_ERROR_H

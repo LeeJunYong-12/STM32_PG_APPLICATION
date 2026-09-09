@@ -1,0 +1,6 @@
+#ifndef	_HSP_DEFAULTCONFIG_H
+#define	_HSP_DEFAULTCONFIG_H
+
+#include	"HSP.h"
+
+#endif	//	_HSP_DEFAULTCONFIG_H
